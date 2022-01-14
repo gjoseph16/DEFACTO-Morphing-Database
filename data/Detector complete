@@ -1,0 +1,558 @@
+DETECTOR:
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_complete_alpha0.5.png
+
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_complete_alpha0.5.png
+
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_complete_alpha0.5.png
+
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_complete_alpha0.5.png
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_complete_alpha0.5.png
+
+**************************************************
+**************************************************
+
+Test 1
+IP		:	0.jpg, 3.jpg
+OP		:	0_3, 3_0
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\0_3_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\0_3_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\0_3_complete_alpha0.5.png
+score: ; evaluation: 
+****************************************************
+
+Test 2
+IP		:	1.jpg, 2.jpg
+OP		:	1_2 , 2_1
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_complete_alpha0.5.png
+score: ; evaluation: 
+
+**************************************************
+
+Test 3
+IP		:	1.jpg, 9.jpg
+OP		:	1_9 
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_9_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_9_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_9_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_9_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_9_complete_alpha0.5.png
+score: ; evaluation: 
+**************************************************
+
+Test 4
+IP		:	2.jpg, 25.jpg
+OP		:	2_25 , 25_2
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\2_25_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\2_25_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\2_25_complete_alpha0.5.png
+score: ; evaluation: 
+**************************************************
+
+Test 5
+IP		:	3.jpg, 60.jpg
+OP		:	3_60 , 60_3
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\3_60_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\3_60_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\3_60_complete_alpha0.5.png
+score: ; evaluation: 
+**************************************************
+
+Test 6
+IP		:	4.jpg, 63.jpg
+OP		:	4_63 , 63_4
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\4_63_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\4_63_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\4_63_complete_alpha0.5.png
+score: ; evaluation: 
+**************************************************
+
+Test 7
+IP		:	5.jpg, 8.jpg
+OP		:	5_8 , 8_5
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\5_8_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\5_8_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\5_8_complete_alpha0.5.png
+score: ; evaluation: 
+**************************************************
+
+Test 8
+IP		:	5.jpg, 19.jpg
+OP		:	5_19
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\5_19_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\5_19_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\5_19_complete_alpha0.5.png
+score: ; evaluation: 
+**************************************************
+
+Test 9
+IP		:	6.jpg, 5.jpg
+OP		:	6_5 
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\6_5_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\6_5_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\6_5_complete_alpha0.5.png
+score: ; evaluation: 
+**************************************************
+
+Test 10
+IP		:	7.jpg, 61.jpg
+OP		:	7_61 
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_61_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_61_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_61_complete_alpha0.5.png
+score: ; evaluation: 
+**************************************************
+
+Test 11
+IP		:	6.jpg, 5.jpg
+OP		:	6_5
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\6_5_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\6_5_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\6_5_complete_alpha0.5.png
+score: ; evaluation: 
+
+
+*********************************
+
+
+Test 12
+
+IP		:	7.jpg, 13.jpg
+OP		:	7_13
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_13_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_13_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_13_complete_alpha0.5.png
+score: ; evaluation: 
+
+
+*********************************
+
+
+Test 13
+
+IP		:	7.jpg, 71.jpg
+OP		:	7_71
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_71_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_71_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_71_complete_alpha0.5.png
+score: ; evaluation: 
+
+
+*********************************
+
+
+Test 14
+
+IP		:	7.jpg, 85.jpg
+OP		:	7_85
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_85_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_85_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_85_complete_alpha0.5.png
+score: ; evaluation: 
+
+
+*********************************
+
+
+Test 15
+
+IP		:	7.jpg, 95.jpg
+OP		:	7_95 , 95_7	
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_95_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_95_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_95_complete_alpha0.5.png
+score: ; evaluation: 
+
+
+*********************************
+
+
+Test 16
+
+IP		:	7.jpg, 112.jpg
+OP		:	7_112
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_112_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_112_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_112_complete_alpha0.5.png
+score: ; evaluation: 
+
+
+*********************************
+
+
+Test 17
+
+IP		:	7.jpg, 160.jpg
+OP		:	7_160
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_160_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_160_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_160_complete_alpha0.5.png
+score: ; evaluation: 
+
+
+*********************************
+
+
+Test 18
+
+IP		:	7.jpg, 170.jpg
+OP		:	7_170
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_170_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_170_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_170_complete_alpha0.5.png
+score: ; evaluation: 
+
+
+*********************************
+
+
+Test 19
+
+IP		:	7.jpg, 184.jpg
+OP		:	7_184
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_184_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_184_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_184_complete_alpha0.5.png
+score: ; evaluation: 
+
+
+*********************************
+
+
+Test 20
+
+IP		:	7.jpg, 194.jpg
+OP		:	7_194
+
+1) request_analyse_HHI_dnn-highfreq.py
+python request_analyse_HHI_dnn-highfreq.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+2) request_analyse_HHI_dnn-multiclass.py
+python request_analyse_HHI_dnn-multiclass.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\1_2_splicing_alpha0.5.png
+score: ; evaluation: 
+
+3) request_analyse_OVGU_keypoints.py
+python request_analyse_OVGU_keypoints.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_194_complete_alpha0.5.png
+score: ; evaluation: 
+
+4) request_analyse_OVGU_benford.py
+python request_analyse_OVGU_benford.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_194_complete_alpha0.5.png
+score: ; evaluation: 
+
+5) request_analyse_OVGU_degradation.py
+python request_analyse_OVGU_degradation.py C:\Users\Dell\PycharmProjects\IT_SEC-1\Morphed\7_194_complete_alpha0.5.png
+score: ; evaluation: 

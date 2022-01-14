@@ -1,0 +1,291 @@
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>dir
+ Volume in drive C is OS
+ Volume Serial Number is 2CC1-6C4E
+
+ Directory of C:\Users\Dell\PycharmProjects\ITSec
+
+28-10-2019  17:16    <DIR>          .
+28-10-2019  17:16    <DIR>          ..
+28-10-2019  17:16    <DIR>          .idea
+28-10-2019  17:14    <DIR>          27venv
+28-10-2019  15:49             1,689 request_detectorX.py
+28-10-2019  15:49             1,358 request_matcherX.py
+28-10-2019  17:10             3,101 request_morphing_ssl.py
+               3 File(s)          6,148 bytes
+               4 Dir(s)  29,192,040,448 bytes free
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_morphing_ssl.py --image1 'D:\DEFACTO\Genuine\actors\1.jpg' --image2 'testimg1.jpg' --method 'splicing'
+Traceback (most recent call last):
+  File "request_morphing_ssl.py", line 22, in <module>
+    img1_base64 = base64.b64encode(open(args.image1, "rb").read())
+IOError: [Errno 22] invalid mode ('rb') or filename: "'D:\\DEFACTO\\Genuine\\actors\\1.jpg'"
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_morphing_ssl.py --image1 D:\DEFACTO\Genuine\actors\1.jpg --image2 testimg1.jpg --method splicing
+Traceback (most recent call last):
+  File "request_morphing_ssl.py", line 23, in <module>
+    img2_base64 = base64.b64encode(open(args.image2, "rb").read())
+IOError: [Errno 2] No such file or directory: 'testimg1.jpg'
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_morphing_ssl.py --image1 D:\DEFACTO\Genuine\actors\1.jpg --image2 D:\DEFACTO\Genuine\actors\2.jpg  --method splicing
+Traceback (most recent call last):
+  File "request_morphing_ssl.py", line 62, in <module>
+    r = requests.post(url, data=json.dumps(data), headers=headers)
+  File "C:\Users\Dell\PycharmProjects\ITSec\27venv\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Dell\PycharmProjects\ITSec\27venv\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Dell\PycharmProjects\ITSec\27venv\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Dell\PycharmProjects\ITSec\27venv\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Dell\PycharmProjects\ITSec\27venv\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='ananas.cs.uni-magdeburg.de', port=443): Max retries exceeded with url: /api/morphing (Caused by NewConnectionError
+('<urllib3.connection.VerifiedHTTPSConnection object at 0x000000000342F5F8>: Failed to establish a new connection: [Errno 10060] A connection attempt failed because the connecte
+d party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_morphing_ssl.py --image1 D:\DEFACTO\Genuine\actors\1.jpg --image2 D:\DEFACTO\Genuine\actors\2.jpg  --method splicing
+<Response [200]> 2
+saved as: 1_2_splicing_alpha0.5.png
+saved as: 2_1_splicing_alpha0.5.png
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_detectorX.py 1 1_2_splicing_alpha0.5.png
+<Response [200]>
+{u'resultData': {u'score': 0.5871114916789011, u'evaluation': u'Morph'}, u'clientQueryId': u'OvGU test request'}
+score: 0.587111491679 ; evaluation: Morph
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_detectorX.py 2 1_2_splicing_alpha0.5.png
+<Response [200]>
+{u'resultData': {u'score': 0.9982713460922241, u'evaluation': u'Morph'}, u'clientQueryId': u'OvGU test request'}
+score: 0.998271346092 ; evaluation: Morph
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_detectorX.py 3 1_2_splicing_alpha0.5.png
+<Response [500]>
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_detectorX.py 12 1_2_splicing_alpha0.5.png
+('Connection aborted.', error(10054, 'An existing connection was forcibly closed by the remote host'))
+Traceback (most recent call last):
+  File "request_detectorX.py", line 42, in <module>
+    if r.status_code == 200:
+NameError: name 'r' is not defined
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_detectorX.py 5 1_2_splicing_alpha0.5.png
+Traceback (most recent call last):
+  File "request_detectorX.py", line 33, in <module>
+    liveImg_base64 = base64.b64encode(open(sys.argv[3], "rb").read())
+IndexError: list index out of range
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_detectorX.py 4 1_2_splicing_alpha0.5.png
+<Response [200]>
+{u'resultData': {u'score': 0.5371555, u'evaluation': u'Morph'}, u'clientQueryId': u'OvGU test request'}
+score: 0.5371555 ; evaluation: Morph
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_matcherX.py 1 1_2_splicing_alpha0.5.png 1_2_splicing_alpha0.5.png
+<Response [500]>
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_matcherX.py 2 1_2_splicing_alpha0.5.png 1_2_splicing_alpha0.5.png
+<Response [200]>
+{u'resultData': {u'score': 1.7165463361834554e-07, u'evaluation': u'Match'}, u'clientQueryId': u'Test request'}
+score: 1.71654633618e-07 ; evaluation: Match
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>python request_matcherX.py 2 1_2_splicing_alpha0.5.png 2_1_splicing_alpha0.5.png
+<Response [200]>
+{u'resultData': {u'score': 1.0077123641967773, u'evaluation': u'NoMatch'}, u'clientQueryId': u'Test request'}
+score: 1.0077123642 ; evaluation: NoMatch
+
+(27venv) C:\Users\Dell\PycharmProjects\ITSec>
+
+
+
+
+------------------------------------------------------------------------
+
+1. Creating morphed images
+python request_morphed.ssl.py --image1 D:\\DEFACTO\Genuine\actors\1.jpg --image2 D:\\DEFACTO\Genuine\actors\2.jpg --method combined --alpha 0.5
+1_2_splicing_alpha0.png
+
+python request_morphing_ssl.py --image1 D:\DEFACTO\Genuine\actors\4.jpg --image2 D:\\DEFACTO\Genuine\actors\6.jpg --method splicing --alpha 0.5 4_6_splicing_alpha0.jpg
+
+python request_morphing_ssl.py --image1 D:\DEFACTO\Genuine\actors\1.jpg --image2 D:\DEFACTO\Genuine\actors\2.jpg  --method splicing
+<Response [200]> 2
+saved as: 1_2_splicing_alpha0.5.png
+saved as: 2_1_splicing_alpha0.5.png
+
+
+
+
+
+2. Detector
+python request_detectorX.py 1 image.png
+python request_detectorX.py 7 4_6_splicing_alpha0.5.png
+
+
+
+
+
+python request_matcherX.py 3 D:\\DEFACTO\Genuine\actors\0.jpg C:\Users\Dell\PycharmProjects\ITSec\0_3_combined_alpha0.5.png
+
+
+
+1. Creating morphed images
+python request_morphed.ssl.py --image1 D:\\DEFACTO\Genuine\actors\0.jpg --image2 D:\\DEFACTO\Genuine\actors\3.jpg --method combined --alpha 0.5
+1_2_splicing_alpha0.png
+
+python request_morphing_ssl.py --image1 D:\Winter sem\Selected chapters of IT security\DEFACTO\DEFACTO\Genuine\actors\0.jpg --image2 D:\Winter sem\Selected chapters of IT security\DEFACTO\DEFACTO\Genuine\actors\3.jpg --method combined --alpha 0.5 4_6_splicing_alpha0.jpg
+
+python request_morphing_ssl.py --image1 D:\DEFACTO\Genuine\actors\0.jpg --image2 D:\DEFACTO\Genuine\actors\3.jpg  --method combined(default)	
+<Response [200]> 2
+saved as: 1_2_splicing_alpha0.5.png
+saved as: 2_1_splicing_alpha0.5.png
+
+
+python request_morphing_ssl.py --image1 D:\DEFACTO\Genuine\actors\4.jpg --image2 D:\\DEFACTO\Genuine\actors\6.jpg --method 
+
+
+
+
+s\ITSec>python request_morphing_ssl.py --image1 D:\DEFACTO\Genuine\actors\0.jpg --image2 D:\DEFACTO\Genuine\actors\3.jpg  --method combined
+--alpha 0.5 --blendgeometry --alignment --ICAO --landmarks1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Test 1
+------
+IP		:	0.jpg, 3.jpg
+OP		:	0_3, 3_0
+Params	: 	0, 3, m=combined, a=0.5
+
+Matcher
+-------
+1:
+IP		:	0, 0_3
+Score	:	99
+{u'resultData': {u'score': 99, u'evaluation': u'Match'}, u'clientQueryId': u'Test request'}
+score: 99 ; evaluation: Match
+
+2:
+IP		:	3, 0_3
+Score	:	0.59
+{u'resultData': {u'score': 59.01750183105469, u'evaluation': u'NoMatch'}, u'clientQueryId': u'Test request'}
+score: 59.0175018311 ; evaluation: NoMatch
+
+3:
+IP		:	
+Score	:	
+
+4:
+IP		:	
+Score	:	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------
+
+
+
+Test 1
+------
+
+IP		:	0.jpg, 3.jpg
+OP		:	0_3, 3_0
+Params	: 	0, 3, m=combined, a=0.5
+
+python request_morphed.ssl.py --image1 D:\\DEFACTO\Genuine\actors\0.jpg --image2 D:\\DEFACTO\Genuine\actors\3.jpg --method combined --alpha 0.5
+
+
+Matcher
+-------
+1:
+IP		:	0, 0_3
+Score	:	99
+{u'resultData': {u'score': 99, u'evaluation': u'Match'}, u'clientQueryId': u'Test request'}
+score: 99 ; evaluation: Match
+
+2:
+IP		:	3, 0_3
+Score	:	0.59
+{u'resultData': {u'score': 59.01750183105469, u'evaluation': u'NoMatch'}, u'clientQueryId': u'Test request'}
+score: 59.0175018311 ; evaluation: NoMatch
+
+3: 
+IP		:	0, 3_0
+Score	:
+python request_matcherX.py 0 D:\\DEFACTO\Genuine\actors\0.jpg C:\Users\Dell\PycharmProjects\ITSec\3_0_splicing_alpha0.5.png
+
+4: 
+IP		:	3, 3_0
+Score	:
+python request_matcherX.py 3 D:\\DEFACTO\Genuine\actors\3.jpg C:\Users\Dell\PycharmProjects\ITSec\3_0_splicing_alpha0.5.png
+
+
+
+
+
+
+
+
+***********
+IP		:	0.jpg, 3.jpg
+OP		:	0_3, 3_0
+Params	: 	0, 3, m=splicing, a=0.5
+
+python request_morphing_ssl.py --image1 D:\DEFACTO\Genuine\actors\0.jpg --image2 D:\DEFACTO\Genuine\actors\3.jpg  --method splicing
+ --alpha 0.5
+
+Matcher 
+1:
+IP		:	0, 0_3
+Score	:	 
+
+{u'resultData': {u'score': 39.674739837646484, u'evaluation': u'NoMatch'}, u'clientQueryId': u'Test request'}
+score: 39.6747398376 ; evaluation: NoMatch
+
+
+python request_matcherX.py 3 D:\\DEFACTO\Genuine\actors\3.jpg C:\Users\Dell\PycharmProjects\ITSec\0_3_splicing_alpha0.5.png
+
+1:
+IP		:	0, 0_3
+Score	:	
+
+2:
+IP		:	3, 0_3
+Score	:
+
+
+python request_matcherX.py 3 D:\\DEFACTO\Genuine\actors\3.jpg C:\Users\Dell\PycharmProjects\ITSec\3_0_splicing_alpha0.5.png
+
+3:
+IP		:	
+Score	:	
+
+4:
+IP		:	
+Score	:	
+

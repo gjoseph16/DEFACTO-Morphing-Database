@@ -1,0 +1,66 @@
+create a diagram like the one in neubert pdf page 5
+
+create table 
+
+page 6 
+show prof if like this, it has to be incorporated in the report
+
+
+1) is the comparison of the images through histogram correct
+2) do we have to do in ms word 
+3) how do we give u the report of the scores of all 200 images
+4) how to add ppt in report
+5) what about score matrix
+
+error rate of gne n nmorp
+
+2 classdecision problem
+detectn problem
+postive n ngtv 
+fpr and fnr
+confidence interval
+
+
+standard deviation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The figure 7 is an example of morphed images, as to how the images were created from the ANANAS web service, and with different morphing methods.
+The original images were taken by DEFACTO. We have used three methods of morphing which are complete, splicing and combined. Complete is a blended image of two original images. It is a 50:50 of both of them. 
+A morphed image created through combined method is created by the parameters by taking alpha factor as 0.5. In this if we see, the first morphed image gives a visual classification with 1st genuine image as the background and the second morphed image with 2nd genuine image as the background.
+
+Same goes with splicing, the first morphed image gives a visual classification of with 1st genuine image as the background and the second morphed image with 2nd genuine image as the background.
+
+When you see visually of the morphed images of combined method the transition, texture and face structure changes.
+And if we visually see the morphed image of splicing method then the skin colour, the elongated face changes.
+
+
+
+
+
+Researchers have long suggested that it is crucial to measure error rates for the various forensic sciences because the probative value of forensic science evidence is inextricably linked to the rates at which examiners make errors 
+
+Error rates are calclated as it is crucial to measure them for the various forensic techniques as the probative value of it is inseparably connected to the rates at which the testers make errors.
+
+
+
+
+It gives the resulting image from warping and blending of the facial regions with the subsequent adding into one of the original backgrounds. IT makes the images clear of ghosting traits. [] andrey
