@@ -1,0 +1,23 @@
+Microsoft Windows [Version 10.0.18362.476]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Dell>cd C:\Users\Dell\Desktop\IT_Sec\ANANAS_scripts
+
+C:\Users\Dell\Desktop\IT_Sec\ANANAS_scripts>python
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^Z
+
+
+C:\Users\Dell\Desktop\IT_Sec\ANANAS_scripts>python request_dermalog_matcher.py D:\DEFACTO\Morphing\morphing\img\0.jpg_IN_3.jpg D:\DEFACTO\Morphing\morphing\img\0.jpg_IN_62.jpg
+  File "request_dermalog_matcher.py", line 37
+    print 'Usage: python request_dermalog_matcher.py "image1" "image2"'
+                                                                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print('Usage: python request_dermalog_matcher.py "image1" "image2"')?
+
+C:\Users\Dell\Desktop\IT_Sec\ANANAS_scripts>
+
+
+C:\Users\Dell\Desktop\IT_Sec\ANANAS_scripts>c:\python27\python request_dermalog_matcher.py "D:\DEFACTO\Morphing\morphing\img\0.jpg_IN_3.jpg.tif" "D:\DEFACTO\Morphing\morphing\img\0.jpg_IN_62.jpg.tif"
+{u'image1Quality': 76, u'matchingScore': 19.46934700012207, u'image2Quality': 100}
+score: 19.4693470001

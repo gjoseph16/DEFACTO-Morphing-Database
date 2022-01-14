@@ -1,0 +1,69 @@
+request_dermolog_matcher
+------------------------
+python request_dermalog_matcher.py "D:\DEFACTO\Morphing\morphing\img\7.jpg_IN_13.jpg" "D:\DEFACTO\Genuine\actors\7.jpg"
+o/p : {u'image1Quality': 66, u'matchingScore': 23.29745864868164, u'image2Quality': 83}
+score: 23.2974586487
+
+python request_dermalog_matcher.py "D:\DEFACTO\Morphing\morphing\img\7.jpg_IN_85.jpg" "D:\DEFACTO\Genuine\actors\85.jpg"
+
+
+request_analyse_OVGU_benford.py
+-------------------------------
+python request_analyse_OVGU_benford.py "C:\Users\Dell\PycharmProjects\IT_SEC-1\Main\7.jpg_IN_85.jpg.tif""D:\DEFACTO\Genuine\actors\7.jpg"
+
+
+
+
+
+Matcher:
+
+Combined
+
+python request_dermalog_matcher.py "C:\Users\Dell\PycharmProjects\IT_SEC-1\Main\7_160_combined_alpha0.5.png" "D:\DEFACTO\Genuine\actors\7.jpg"
+
+python request_dermalog_matcher.py "C:\Users\Dell\PycharmProjects\IT_SEC-1\Main\7_160_combined_alpha0.5.png" "D:\DEFACTO\Genuine\actors\160.jpg"
+
+python request_dermalog_matcher.py "C:\Users\Dell\PycharmProjects\IT_SEC-1\Main\160_7_combined_alpha0.5.png" "D:\DEFACTO\Genuine\actors\7.jpg"
+
+python request_dermalog_matcher.py "C:\Users\Dell\PycharmProjects\IT_SEC-1\Main\160_7_combined_alpha0.5.png" "D:\DEFACTO\Genuine\actors\160.jpg"
+
+
+
+Splicing
+
+python request_dermalog_matcher.py "C:\Users\Dell\PycharmProjects\IT_SEC-1\Main\7_160_splicing_alpha0.5.png" "D:\DEFACTO\Genuine\actors\7.jpg"
+
+python request_dermalog_matcher.py "C:\Users\Dell\PycharmProjects\IT_SEC-1\Main\7_160_splicing_alpha0.5.png" "D:\DEFACTO\Genuine\actors\160.jpg"
+
+python request_dermalog_matcher.py "C:\Users\Dell\PycharmProjects\IT_SEC-1\Main\160_7_splicing_alpha0.5.png" "D:\DEFACTO\Genuine\actors\7.jpg"
+
+python request_dermalog_matcher.py "C:\Users\Dell\PycharmProjects\IT_SEC-1\Main\160_7_splicing_alpha0.5.png" "D:\DEFACTO\Genuine\actors\160.jpg"
+
+
+Complete
+
+python request_dermalog_matcher.py "C:\Users\Dell\PycharmProjects\IT_SEC-1\Main\7_160_complete_alpha0.5.png" "D:\DEFACTO\Genuine\actors\7.jpg"
+
+python request_dermalog_matcher.py "C:\Users\Dell\PycharmProjects\IT_SEC-1\Main\7_160_complete_alpha0.5.png" "D:\DEFACTO\Genuine\actors\160.jpg"
+
+
+
+
+
+old:
+
+python request_matcherX.py 3 D:\\DEFACTO\Genuine\actors\7.jpg C:\Users\Dell\PycharmProjects\ITSec\7_170_combined_alpha0.5.png
+
+python request_matcherX.py 3 D:\\DEFACTO\Genuine\actors\170.jpg C:\Users\Dell\PycharmProjects\ITSec\7_170_combined_alpha0.5.png
+
+python request_matcherX.py 3 D:\\DEFACTO\Genuine\actors\7.jpg C:\Users\Dell\PycharmProjects\ITSec\170_7_combined_alpha0.5.png
+
+python request_matcherX.py 3 D:\\DEFACTO\Genuine\actors\170.jpg C:\Users\Dell\PycharmProjects\ITSec\170_7_combined_alpha0.5.png
+
+
+
+
+
+
+
+
